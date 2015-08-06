@@ -226,10 +226,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="css\.DS_Store" />
-    <Content Include="downloads\Jamshid Nafisi_resume_07182013.docx" />
-    <Content Include="downloads\Jamshid Nafisi_resume_07182013.pdf" />
-    <None Include="downloads\jamshid_nafisi_resume_03182013.docx" />
-    <None Include="downloads\jamshid_nafisi_resume_03182013.pdf" />
+    <Content Include="downloads\Jamshid Nafisi_resume_08062015.docx" />
+    <Content Include="downloads\Jamshid Nafisi_resume_08062015.pdf" />
     <None Include="fonts\.DS_Store" />
     <Content Include="fonts\icomoon.zip" />
     <None Include="fonts\icomoon\.DS_Store" />

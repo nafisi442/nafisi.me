@@ -27,6 +27,10 @@ namespace nafisi.me.core
         //power from 7
         public static List<technology> technology_list = new List<technology>() { 
             new technology{ technology_name="C#", power=7},
+            new technology{ technology_name="NodeJs", power=6},
+            new technology{ technology_name="Redis", power=7},
+            new technology{ technology_name="HapiJs", power=6},
+            new technology{ technology_name="MongoDb", power=7},
             new technology{ technology_name=".NET", power=7},
             new technology{ technology_name="VB.NET", power=7},
             new technology{ technology_name="MVC", power=7},
@@ -36,13 +40,13 @@ namespace nafisi.me.core
             new technology{ technology_name="WCF", power=2},
             new technology{ technology_name="HTML", power=7},
             new technology{ technology_name="JQUERY", power=5},
-            new technology{ technology_name="JAVASCRIPT", power=3},
+            new technology{ technology_name="JAVASCRIPT", power=5},
             new technology{ technology_name="NHIBERNATE", power=5},
             new technology{ technology_name="SSIS", power=5},
             new technology{ technology_name="TFS", power=7},
             new technology{ technology_name="CSS", power=7},
             new technology{ technology_name="C++", power=2},
-            new technology{ technology_name="JAVA", power=2},
+            new technology{ technology_name="JAVA", power=6},
             new technology{ technology_name="LINQ", power=7},
             new technology{ technology_name="XML", power=7},
             new technology{ technology_name="EF", power=7},
@@ -52,34 +56,43 @@ namespace nafisi.me.core
             new technology{ technology_name="SOAP", power=3},
             new technology{ technology_name="REST", power=5},
             new technology{ technology_name="AWS", power=6},
-            new technology{ technology_name="AZURE", power=1},
+            new technology{ technology_name="AZURE", power=6},
 
         };
 
 
 
         public static List<job> jobs_list = new List<job>(){
-            new job { order=1, company="Ancestry.com", company_link="http://www.Ancestry.com /", from= new DateTime(2014, 1, 1), to=DateTime.UtcNow , location="San Francisco, CA", title="Senior Software Engineer at SEO Team", 
+                        new job { order=1, company="Skype", company_link="http://www.skype.com /", from= new DateTime(2014, 5, 1), to=DateTime.UtcNow , location="Palo Alto, CA", title="Senior Backend Engineer", 
                 descriptions=new string[] {
-                    "Defined circuit breakers and implemented circuit breaker fallbacks in order to lower the load of servers once traffic peaks by tripping circuit breakers.",
-                    "Implemented seo related elements such as canonical tags and etc and related unit tests.",
-                    "Implementing missing error pages.",
-                    "Implementing teallium tags which generate omniture scripts for generating analytics for pages.",
-                    "Assessment of Schema.org and Open Graph on pages to further implement the related tags and increase organic traffic through them.",
+                    "Developed node.js backend for new content management system that would potentially work with mobile as well through REST apis. We used the following libraries in this project: Hapi, Mongoose, Joi, Boom, Q, Angular, Mocha etc. We used a combination of SQL and MongoDB to store the data.",
+                    "Developed unit tests for new node based CMS both for api routes as well as the backend functionalities.",
+                    "Initiated, architected and coded a prototype for visual builder of a new internal CMS platform. The new CMS enabled content managers to design and develop websites without any need for coding it. Once the prototype was approved, I along with my team went ahead and developed a fully working product which is now being used in skype marketing. We coded it in C# with .NET libraries and used the following technology stack: ASP.NET MVC, C#, .NET, Redis, Azure storage, JavaScript, SQL, etc.",
+                    "Developed SQL and NoSQL database layers to be used within the visual builder platform that we developed for marketing.",
+                    "Developed recursive functions to render the websites on the fly within a reasonable timeframe by loading all the html elements if the page from database. ",
+                    "Created visual builder interface which massively used jquery and ajax/api calls to reflect the changes content manager made on the pages to the database on the fly.",
+                }, technologies=technology_list.Where(x=>x.technology_name=="C#").ToList()
+                
+            },
 
+            new job { order=1, company="Ancestry.com", company_link="http://www.ancestry.com /", from= new DateTime(2014, 1, 1), to=DateTime.UtcNow , location="San Francisco, CA", title="Senior Software Engineer at SEO Team", 
+                descriptions=new string[] {
+"	Defined circuit breaker patterns and implemented circuit breaker fallbacks in order to lower the load of servers once traffic peaks by tripping circuit breakers.",
+"	Implemented SEO related elements such as canonical tags and etc. and developed related unit tests. ",
+"	Implementing missing error pages.",
+"	Implementing teallium tags which generate omniture scripts for generating analytics for pages.",
+"	Assessment of Schema.org and Open Graph on pages to further implement the related tags and increase organic traffic through them.",
                 }, technologies=technology_list.Where(x=>x.technology_name=="C#").ToList()
                 
             },
 
             new job { order=2, company="Aspen Marketing Services", company_link="http://www.aspenms.com/", from= new DateTime(2013, 9, 1), to=new DateTime(2014, 1, 1) , location="West Chicago, IL", title="Backend ASP.NET MVC Developer", 
                 descriptions=new string[] {
-                    "Optimized and refactoring data ORMs of existing projects to achieve faster response rate. Upgrading some projects to Hibernate in cases. Using SQL profiler to monitor the data transactions.",
-                    "Upgraded 3-Tier projects to N-Tier project structures to achieve higher scalability.",
-                    "Developed SSIS packages for  importing the clients data from excel to related databases.",
-                    "Set up Nolio scripts for pushing the finalized products to Development, QA and production environments.",
-                    "Worked in an agile environment, attending daily meetings and working within bi-weekly sprints.",
-                    "Daily communicating with project managers face to face or through TFS to keep the projects on time and on track.",
-
+"Optimized and refactoring data ORMs of existing projects to achieve faster response rate. Upgraded some projects to Hibernate in cases. Using SQL profiler to monitor the data transactions.",
+"Upgraded 3-Tier projects to N-Tier project structures to achieve higher scalability.",
+"Developed SSIS packages for importing the clients’ data from excel to related databases.",
+"Worked in an agile environment, attending daily meetings and working within bi-weekly sprints.",
+"Daily communicating with project managers face to face or through TFS to keep the projects on time and on track.",
                 }, technologies=technology_list.Where(x=>x.technology_name=="C#").ToList()
                 
             },
@@ -87,47 +100,14 @@ namespace nafisi.me.core
 
             new job { order=3, company="7pigs.com", company_link="http://www.7pigs.com", from= new DateTime(2010, 1, 1), to=new DateTime(2013, 9, 1) , location="San Francisco, CA", title="Full Stack ASP.NET MVC Developer", 
                 descriptions=new string[] {
-                    "Developed website using ASP.NET MVC, LINQ, Entity Framework, JQUERY and JavaScript.",
+                    "Developed website functionalities using ASP.NET MVC, LINQ, Dapper, Entity Framework, Jquery and JavaScript. ",
                     "Developed sophisticated SQL statements for high speed data transactions where needed.",
-                    "Developed related server applications and web services (REST).",
-                    "Developed trading strategies and algorithms using C#.",
-                    "Performed back tests and forward tests of the trading algorithms using MetaTrader.",
-                    "Improved and changing the structure of automated trading systems as needed.",
+                    "Developed sophisticated SQL statements for high speed data transactions where needed.",
                     "Set up the servers, SSL certificates and etc. Also configuring the hardware in order to handle the traffic and load on the AWS servers.",
                     "Led the programming team in Nairobi, Kenya office.",
-
                 }, technologies=technology_list.Where(x=>x.technology_name=="C#").ToList()
                 
-            },
-
-
-
-            new job { order=4, company="Celar Water Equipment", company_link="", from=new DateTime(2006, 1, 1), to=new DateTime(2009, 9, 1) , location="Dubai, U.A.E.", title="Full Stack VB.NET Programmer", 
-                descriptions=new string[] {
-                    "Developed a ERP(Enterprise Resource Planning Package) from scratch using VB.NET, SQL server and etc.",
-                    "Created interconnected databases for each department and achieved more organized data management and increased information availability for the entire company.",
-                    "Designed new reporting system to monitor the resources more accurately.",
-                    "Connected the ERP package to the engineering software for more accurate proposals.",
-                    "Modified the old business structure of the company and achieved 30% more efficiency in workforce using C#.",
-
-                }, technologies=technology_list.Where(x=>x.technology_name=="C#").ToList()
-            },
-
-
-
-            new job { order=5, company="NAHOFTSazan", company_link="", from=new DateTime(2005, 5, 1), to=new DateTime(2005, 10, 1) , location="Tehran, Iran", title="Founder", 
-                descriptions=new string[] {
-                "Conducted presentations for potential clients and meetings for current clients.",
-                "Designed small business software packages and databases.",
-                "Managed company’s administration, financial and marketing issues.",
-                "Estimated and calculated the job proposals. Company was awarded more than 10 projects internationally.",
-                "Developed company's' projects' and led the programming team.",
-
-                }, technologies=technology_list.Where(x=>x.technology_name=="C#").ToList()
-            },
-
-
-
+            }
         };
 
 
@@ -166,9 +146,9 @@ namespace nafisi.me.core
         public IEnumerable<string> descriptions { get; set; }
         public IEnumerable<technology> technologies { get; set; }
         public DateTime from { get; set; }
-        public DateTime to { get; set; } 
+        public DateTime to { get; set; }
 
-        
+
     }
 
 

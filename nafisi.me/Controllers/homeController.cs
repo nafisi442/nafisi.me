@@ -54,14 +54,6 @@ namespace nafisi.me.Controllers
             client.Host = Email_Configurations_Host;
             client.Port = Email_Configurations_Port;
             client.Send(msg);
-
-
-
-
-
-
         }
-
-
     }
 }
