@@ -1,0 +1,78 @@
+2014-03-13 14:27:48: -- nafisi.me: ANALYSIS started by User on 'MININT-C5DAK5M' (GoodSync 9.6.2.5)
+2014-03-13 14:27:48: ~Shayan\Dropbox\Projects\nafisi.me\nafisi.me\nafisi.me (C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me) =PropDels=> ftp://184.168.27.35/nafisi
+2014-03-13 14:27:48: L: Files: 162 (excluded 0). Folders: 32 (excluded 1). C: NTFS, Free: 107 GB, Total: 463 GB
+2014-03-13 14:28:06: R: Files: 172 (excluded 0). Folders: 32 (excluded 1). FTP: Microsoft FTP Service
+2014-03-13 14:28:06: /bin/Microsoft.Web.Infrastructure.dll: Warning: Older file to replace Newer file
+2014-03-13 14:28:06: /bin/System.Net.Http.dll: Warning: Older file to replace Newer file
+2014-03-13 14:28:06: /bin/System.Net.Http.Formatting.dll: Warning: Older file to replace Newer file
+2014-03-13 14:28:06: /bin/System.Net.Http.Formatting.xml: Warning: Older file to replace Newer file
+2014-03-13 14:28:06: /bin/System.Net.Http.WebRequest.dll: Warning: Older file to replace Newer file
+2014-03-13 14:28:06: /bin/System.Net.Http.WebRequest.xml: Warning: Older file to replace Newer file
+2014-03-13 14:28:06: /bin/System.Net.Http.xml: Warning: Older file to replace Newer file
+2014-03-13 14:28:06: /bin/System.Web.Helpers.dll: Warning: Older file to replace Newer file
+2014-03-13 14:28:06: /bin/System.Web.Helpers.xml: Warning: Older file to replace Newer file
+2014-03-13 14:28:06: /bin/System.Web.Http.dll: Warning: Older file to replace Newer file
+2014-03-13 14:28:06: /bin/System.Web.Http.WebHost.dll: Warning: Older file to replace Newer file
+2014-03-13 14:28:06: /bin/System.Web.Http.WebHost.xml: Warning: Older file to replace Newer file
+2014-03-13 14:28:06: /bin/System.Web.Http.xml: Warning: Older file to replace Newer file
+2014-03-13 14:28:06: /bin/System.Web.Mvc.dll: Warning: Older file to replace Newer file
+2014-03-13 14:28:06: /bin/System.Web.Mvc.xml: Warning: Older file to replace Newer file
+2014-03-13 14:28:06: /bin/System.Web.Razor.dll: Warning: Older file to replace Newer file
+2014-03-13 14:28:06: /bin/System.Web.Razor.xml: Warning: Older file to replace Newer file
+2014-03-13 14:28:06: /bin/System.Web.WebPages.Deployment.dll: Warning: Older file to replace Newer file
+2014-03-13 14:28:06: /bin/System.Web.WebPages.Deployment.xml: Warning: Older file to replace Newer file
+2014-03-13 14:28:06: /bin/System.Web.WebPages.dll: Warning: Older file to replace Newer file
+2014-03-13 14:28:06: /bin/System.Web.WebPages.Razor.dll: Warning: Older file to replace Newer file
+2014-03-13 14:28:06: /bin/System.Web.WebPages.Razor.xml: Warning: Older file to replace Newer file
+2014-03-13 14:28:06: /bin/System.Web.WebPages.xml: Warning: Older file to replace Newer file
+2014-03-13 14:28:06: Changes: 52, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-03-13 14:28:06: Left to Right: Copy File: 41 Delete File: 11 
+2014-03-13 14:28:06: -- Analysis Completed. Time 00:00:20, Speed: 10 files/s
+2014-03-13 14:28:06: 
+2014-03-13 14:30:53: == nafisi.me: SYNC started by User on 'MININT-C5DAK5M'
+2014-03-13 14:30:53: ~Shayan\Dropbox\Projects\nafisi.me\nafisi.me\nafisi.me (C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me) =PropDels=> ftp://184.168.27.35/nafisi
+2014-03-13 14:30:59: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/Microsoft.Web.Infrastructure.dll' -> 'ftp://184.168.27.35/nafisi/bin/Microsoft.Web.Infrastructure.dll'
+2014-03-13 14:31:00: Copy New 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/Microsoft.Web.Infrastructure.xml' -> 'ftp://184.168.27.35/nafisi/bin/Microsoft.Web.Infrastructure.xml'
+2014-03-13 14:31:02: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/nafisi.me.dll' -> 'ftp://184.168.27.35/nafisi/bin/nafisi.me.dll'
+2014-03-13 14:31:04: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/nafisi.me.pdb' -> 'ftp://184.168.27.35/nafisi/bin/nafisi.me.pdb'
+2014-03-13 14:31:06: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/Newtonsoft.Json.dll' -> 'ftp://184.168.27.35/nafisi/bin/Newtonsoft.Json.dll'
+2014-03-13 14:31:09: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/Newtonsoft.Json.xml' -> 'ftp://184.168.27.35/nafisi/bin/Newtonsoft.Json.xml'
+2014-03-13 14:31:11: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/System.Net.Http.dll' -> 'ftp://184.168.27.35/nafisi/bin/System.Net.Http.dll'
+2014-03-13 14:31:13: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/System.Net.Http.Formatting.dll' -> 'ftp://184.168.27.35/nafisi/bin/System.Net.Http.Formatting.dll'
+2014-03-13 14:31:15: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/System.Net.Http.Formatting.xml' -> 'ftp://184.168.27.35/nafisi/bin/System.Net.Http.Formatting.xml'
+2014-03-13 14:31:17: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/System.Net.Http.WebRequest.dll' -> 'ftp://184.168.27.35/nafisi/bin/System.Net.Http.WebRequest.dll'
+2014-03-13 14:31:19: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/System.Net.Http.WebRequest.xml' -> 'ftp://184.168.27.35/nafisi/bin/System.Net.Http.WebRequest.xml'
+2014-03-13 14:31:21: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/System.Net.Http.xml' -> 'ftp://184.168.27.35/nafisi/bin/System.Net.Http.xml'
+2014-03-13 14:31:23: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/System.Web.Helpers.dll' -> 'ftp://184.168.27.35/nafisi/bin/System.Web.Helpers.dll'
+2014-03-13 14:31:26: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/System.Web.Helpers.xml' -> 'ftp://184.168.27.35/nafisi/bin/System.Web.Helpers.xml'
+2014-03-13 14:31:28: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/System.Web.Http.dll' -> 'ftp://184.168.27.35/nafisi/bin/System.Web.Http.dll'
+2014-03-13 14:31:30: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/System.Web.Http.WebHost.dll' -> 'ftp://184.168.27.35/nafisi/bin/System.Web.Http.WebHost.dll'
+2014-03-13 14:31:32: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/System.Web.Http.WebHost.xml' -> 'ftp://184.168.27.35/nafisi/bin/System.Web.Http.WebHost.xml'
+2014-03-13 14:31:34: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/System.Web.Http.xml' -> 'ftp://184.168.27.35/nafisi/bin/System.Web.Http.xml'
+2014-03-13 14:31:40: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/System.Web.Mvc.dll' -> 'ftp://184.168.27.35/nafisi/bin/System.Web.Mvc.dll'
+2014-03-13 14:31:43: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/System.Web.Mvc.xml' -> 'ftp://184.168.27.35/nafisi/bin/System.Web.Mvc.xml'
+2014-03-13 14:31:46: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/System.Web.Razor.dll' -> 'ftp://184.168.27.35/nafisi/bin/System.Web.Razor.dll'
+2014-03-13 14:31:48: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/System.Web.Razor.xml' -> 'ftp://184.168.27.35/nafisi/bin/System.Web.Razor.xml'
+2014-03-13 14:31:50: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/System.Web.WebPages.Deployment.dll' -> 'ftp://184.168.27.35/nafisi/bin/System.Web.WebPages.Deployment.dll'
+2014-03-13 14:31:52: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/System.Web.WebPages.Deployment.xml' -> 'ftp://184.168.27.35/nafisi/bin/System.Web.WebPages.Deployment.xml'
+2014-03-13 14:31:55: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/System.Web.WebPages.dll' -> 'ftp://184.168.27.35/nafisi/bin/System.Web.WebPages.dll'
+2014-03-13 14:31:57: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/System.Web.WebPages.Razor.dll' -> 'ftp://184.168.27.35/nafisi/bin/System.Web.WebPages.Razor.dll'
+2014-03-13 14:31:59: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/System.Web.WebPages.Razor.xml' -> 'ftp://184.168.27.35/nafisi/bin/System.Web.WebPages.Razor.xml'
+2014-03-13 14:32:01: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/bin/System.Web.WebPages.xml' -> 'ftp://184.168.27.35/nafisi/bin/System.Web.WebPages.xml'
+2014-03-13 14:32:02: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/core/core.cs' -> 'ftp://184.168.27.35/nafisi/core/core.cs'
+2014-03-13 14:32:04: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/nafisi.me.csproj' -> 'ftp://184.168.27.35/nafisi/nafisi.me.csproj'
+2014-03-13 14:32:06: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/nafisi.me.csproj.user' -> 'ftp://184.168.27.35/nafisi/nafisi.me.csproj.user'
+2014-03-13 14:32:07: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache' -> 'ftp://184.168.27.35/nafisi/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache'
+2014-03-13 14:32:09: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/obj/Debug/nafisi.me.csproj.FileListAbsolute.txt' -> 'ftp://184.168.27.35/nafisi/obj/Debug/nafisi.me.csproj.FileListAbsolute.txt'
+2014-03-13 14:32:11: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/obj/Debug/nafisi.me.csprojResolveAssemblyReference.cache' -> 'ftp://184.168.27.35/nafisi/obj/Debug/nafisi.me.csprojResolveAssemblyReference.cache'
+2014-03-13 14:32:13: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/obj/Debug/nafisi.me.dll' -> 'ftp://184.168.27.35/nafisi/obj/Debug/nafisi.me.dll'
+2014-03-13 14:32:15: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/obj/Debug/nafisi.me.pdb' -> 'ftp://184.168.27.35/nafisi/obj/Debug/nafisi.me.pdb'
+2014-03-13 14:32:17: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/packages.config' -> 'ftp://184.168.27.35/nafisi/packages.config'
+2014-03-13 14:32:19: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/Views/Web.config' -> 'ftp://184.168.27.35/nafisi/Views/Web.config'
+2014-03-13 14:32:21: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/Web.config' -> 'ftp://184.168.27.35/nafisi/Web.config'
+2014-03-13 14:32:22: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/Web.Debug.config' -> 'ftp://184.168.27.35/nafisi/Web.Debug.config'
+2014-03-13 14:32:24: Copy Over 'C:/Users/Shayan/Dropbox/Projects/nafisi.me/nafisi.me/nafisi.me/Web.Release.config' -> 'ftp://184.168.27.35/nafisi/Web.Release.config'
+2014-03-13 14:32:25: Save State File ftp://184.168.27.35/nafisi/_gsdata_/_file_state_v4._gs
+2014-03-13 14:32:27: Items Synced OK: 41, Errors: 0
+2014-03-13 14:32:27: == Sync Completed. Time: 00:01:37, Speed: 56.9 KB/s (3.51 KB/s)
+2014-03-13 14:32:27: 
