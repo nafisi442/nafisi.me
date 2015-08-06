@@ -13,10 +13,10 @@ namespace nafisi.me.core
         public static string website_link = "http://www.nafisi.me";
         public static string email = "shayan.nafisi@gmail.com";
         public static string phone_number = "+1 347 334 1219";
-        public static string title = ".NET, C# Developer";
+        public static string title = "Node, C# Developer";
         public static string motto = "Life is ours, we live it our way...";
         public static string dob = "March 1985";
-        public static string address = "San Francisco, CA";
+        public static string address = "San Jose, CA";
         public static string fb_link = "https://www.facebook.com/shayan.nafisi";
         public static DateTime last_update = new DateTime(2015, 8, 6);
         public static string work_authorization = "Authorized to work in the United States without any restrictions.";
