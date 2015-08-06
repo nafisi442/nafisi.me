@@ -1,0 +1,26 @@
+﻿ul.job_desc
+{
+    margin-top:20px;
+   
+}
+
+ul.job_desc li
+{
+     list-style-type:circle;
+     list-style-position:inside;
+     margin-bottom: 5px !important;
+}
+
+ul.download_items
+{
+    text-align:center;
+    margin:15px;
+    
+}
+
+ul.download_items li
+{
+    display:inline-block;
+     margin:15px;
+     text-align:left;
+}

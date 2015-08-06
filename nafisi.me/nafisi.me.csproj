@@ -177,7 +177,6 @@
     <Content Include="images\tab-hover%402x.png" />
     <Content Include="images\tab-hover.png" />
     <Content Include="js\custom.js" />
-    <Content Include="js\index.html" />
     <Content Include="js\jquery-ui-map.js" />
     <Content Include="js\jquery.carouFredSel.js" />
     <Content Include="js\jquery.easytabs.min.js" />
@@ -270,6 +269,7 @@
     <None Include="php\phpMailer\smtp.php" />
     <None Include="php\template\default.php" />
     <None Include="portfolio\Thumbs.db" />
+    <None Include="Properties\PublishProfiles\nafisi.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
