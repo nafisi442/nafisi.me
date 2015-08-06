@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\a-janafi\Desktop\prod\nafisi</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>08/06/2015 13:08:28</publishTime>
+    </File>
+    <File Include="bin/nafisi.me.dll">
+      <publishTime>08/06/2015 13:37:11</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/06/2015 13:36:20</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.dll">
+      <publishTime>08/06/2015 13:08:28</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>08/06/2015 13:08:28</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.WebRequest.dll">
+      <publishTime>08/06/2015 13:08:28</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>08/06/2015 13:08:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>08/06/2015 13:08:29</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>08/06/2015 13:08:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>08/06/2015 13:08:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>08/06/2015 13:08:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>08/06/2015 13:08:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>08/06/2015 13:08:08</publishTime>
+    </File>
+    <File Include="css/custom.css">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="css/iemobile.css">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="css/index.html">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="css/prettyPhoto.css">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="css/reset.css">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="downloads/Jamshid Nafisi_resume_08062015.docx">
+      <publishTime>08/06/2015 12:32:29</publishTime>
+    </File>
+    <File Include="downloads/Jamshid Nafisi_resume_08062015.pdf">
+      <publishTime>08/06/2015 12:32:44</publishTime>
+    </File>
+    <File Include="fonts/icomoon.zip">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="fonts/icomoon/icomoon.svg">
+      <publishTime>06/03/2013 13:28:31</publishTime>
+    </File>
+    <File Include="fonts/index.html">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/06/2015 12:42:23</publishTime>
+    </File>
+    <File Include="images/files/pdf.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/files/word.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/header-shadow.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/index.html">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/personal-info-sep.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/photo-inner.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/photo.jpg">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/photo1.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/dark_rounded/btnNext.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/dark_rounded/btnPrevious.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/dark_rounded/contentPattern.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/dark_rounded/default_thumbnail.gif">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/dark_rounded/loader.gif">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/dark_rounded/sprite.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/dark_square/btnNext.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/dark_square/btnPrevious.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/dark_square/contentPattern.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/dark_square/default_thumbnail.gif">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/dark_square/loader.gif">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/dark_square/sprite.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/default/default_thumb.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/default/loader.gif">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/default/sprite.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/default/sprite_next.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/default/sprite_prev.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/default/sprite_x.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/default/sprite_y.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/facebook/btnNext.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/facebook/btnPrevious.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/facebook/contentPatternBottom.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/facebook/contentPatternLeft.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/facebook/contentPatternRight.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/facebook/contentPatternTop.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/facebook/default_thumbnail.gif">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/facebook/loader.gif">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/facebook/sprite.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/light_rounded/btnNext.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/light_rounded/btnPrevious.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/light_rounded/default_thumbnail.gif">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/light_rounded/loader.gif">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/light_rounded/sprite.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/light_square/btnNext.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/light_square/btnPrevious.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/light_square/default_thumbnail.gif">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/light_square/loader.gif">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/prettyPhoto/light_square/sprite.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/tab-hover%402x.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="images/tab-hover.png">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="js/custom.js">
+      <publishTime>06/03/2013 17:13:00</publishTime>
+    </File>
+    <File Include="js/jquery-ui-map.js">
+      <publishTime>06/03/2013 17:13:00</publishTime>
+    </File>
+    <File Include="js/jquery.carouFredSel.js">
+      <publishTime>06/03/2013 17:13:00</publishTime>
+    </File>
+    <File Include="js/jquery.easytabs.min.js">
+      <publishTime>06/03/2013 17:13:00</publishTime>
+    </File>
+    <File Include="js/jquery.isotope.min.js">
+      <publishTime>06/03/2013 17:13:00</publishTime>
+    </File>
+    <File Include="js/jquery.min.js">
+      <publishTime>06/03/2013 17:13:00</publishTime>
+    </File>
+    <File Include="js/jquery.prettyPhoto.js">
+      <publishTime>06/03/2013 17:13:00</publishTime>
+    </File>
+    <File Include="js/plugins.js">
+      <publishTime>06/03/2013 17:13:00</publishTime>
+    </File>
+    <File Include="js/respond.min.js">
+      <publishTime>06/03/2013 17:13:00</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>08/06/2015 13:36:26</publishTime>
+    </File>
+    <File Include="php/index.html">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="portfolio/1-thumb.jpg">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="portfolio/1.jpg">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="portfolio/2-thumb.jpg">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="portfolio/2.jpg">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="portfolio/3-thumb.jpg">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="portfolio/3.jpg">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="portfolio/4-thumb.jpg">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="portfolio/4.jpg">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="portfolio/5-thumb.jpg">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="portfolio/5.jpg">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="portfolio/6-thumb.jpg">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="portfolio/6.jpg">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="portfolio/7-thumb.jpg">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="portfolio/7.jpg">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="portfolio/8-thumb.jpg">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="portfolio/8.jpg">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="portfolio/index.html">
+      <publishTime>08/06/2015 12:42:24</publishTime>
+    </File>
+    <File Include="Views/home/index.cshtml">
+      <publishTime>08/06/2015 12:48:27</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>08/06/2015 12:42:23</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/06/2015 13:39:56</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
