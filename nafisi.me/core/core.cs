@@ -18,7 +18,7 @@ namespace nafisi.me.core
         public static string dob = "March 1985";
         public static string address = "San Francisco, CA";
         public static string fb_link = "https://www.facebook.com/shayan.nafisi";
-        public static DateTime last_update = new DateTime(2013, 10, 9);
+        public static DateTime last_update = new DateTime(2015, 8, 6);
         public static string work_authorization = "Authorized to work in the United States without any restrictions.";
 
 
@@ -77,11 +77,11 @@ namespace nafisi.me.core
 
             new job { order=1, company="Ancestry.com", company_link="http://www.ancestry.com /", from= new DateTime(2014, 1, 1), to=DateTime.UtcNow , location="San Francisco, CA", title="Senior Software Engineer at SEO Team", 
                 descriptions=new string[] {
-"	Defined circuit breaker patterns and implemented circuit breaker fallbacks in order to lower the load of servers once traffic peaks by tripping circuit breakers.",
-"	Implemented SEO related elements such as canonical tags and etc. and developed related unit tests. ",
-"	Implementing missing error pages.",
-"	Implementing teallium tags which generate omniture scripts for generating analytics for pages.",
-"	Assessment of Schema.org and Open Graph on pages to further implement the related tags and increase organic traffic through them.",
+"Defined circuit breaker patterns and implemented circuit breaker fallbacks in order to lower the load of servers once traffic peaks by tripping circuit breakers.",
+"Implemented SEO related elements such as canonical tags and etc. and developed related unit tests. ",
+"Implementing missing error pages.",
+"Implementing teallium tags which generate omniture scripts for generating analytics for pages.",
+"Assessment of Schema.org and Open Graph on pages to further implement the related tags and increase organic traffic through them.",
                 }, technologies=technology_list.Where(x=>x.technology_name=="C#").ToList()
                 
             },
